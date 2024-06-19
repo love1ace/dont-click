@@ -14,10 +14,14 @@ body {
     align-items: center;
 }
 
+#text {
+    font-size: 3.5rem;
+}
+
 #triggerButton {
     padding: 5px 10px;
     margin: 10px;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     background-color: brown;
     color: white;
 }
@@ -42,19 +46,20 @@ body {
 }
 
 #myImage, #myText {
-    width: 800px;
+    width: 700px;
     height: auto;
     transition: opacity 2s;
     opacity: 0;
     display: none;
+    font-size: 3.5rem;
 }
 
 @media (max-width: 600px) {
     #text, #triggerButton {
-        font-size: 5rem;
+        font-size: 2rem;
     }
     #myImage, #myText {
-        width: 500px;
-        font-size: 5rem;
+        width: 300px;
+        font-size: 2rem;
     }
 }
