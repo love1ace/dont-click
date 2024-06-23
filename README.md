@@ -10,7 +10,7 @@
 1. Fork this repository.
 2. Clone your fork to your local machine.
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/love1ace/dont-click.git
    ```
 3. Create a new branch
    ```bash
